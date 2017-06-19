@@ -1,0 +1,177 @@
+/*
+ * Dit is de custom style sheet van jouw website
+ *
+ */
+html,body{
+	margin: 0;
+	padding:0;
+	font-family: "Times New Roman";
+	background-color: #f2f2f2;
+
+	max-width: 100%;
+
+}
+
+a {
+
+	text-decoration: none;
+}
+
+
+
+.nav{
+	width: 100%;
+	background-color: #07001d;
+	height: 50px;
+}
+
+.nav ul{
+	margin:0 auto;
+
+	text-align: center;
+
+}
+
+.nav ul li{
+	display:inline;
+	border: #07001d 13px solid;
+
+
+
+}
+a:hover {
+	background-color: blue;
+}
+.nav a{
+	color: azure;
+	font-size: 21px;
+}
+
+
+
+
+
+hr {
+	border-color: deeppink;
+}
+
+
+
+footer {
+	text-align: center;
+	background-color: #07001d;
+	color: white;
+	min-height: 11vh;
+
+
+
+
+
+
+}
+#title{
+	font-size: 30px;
+	margin-left: 30px;
+	width: 850px;
+;
+}
+img {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+
+}
+#images{
+	margin-left: 30px;
+	margin-top: 10px;
+}
+#article{
+	margin-left: 30px;
+	width: 700px;
+	margin-top: auto;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+	background-color: #07001d;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+	background-color: #28418b;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+#contact{
+	background-color:#f2f2f2;
+	margin-left: 20px;
+}
+html,body {
+	margin: 0;
+	padding: 0;
+}
+.slider {
+	height: 150px;
+	width: 1024px;
+	margin: 0;
+	margin-left: 325px;
+
+}
+
+
+.slider-wrapper {
+	width: 728px;
+	height: 400px;
+
+}
+
+.slide {
+
+	width: 728px;
+	margin-top: 10px;
+
+	position: absolute;
+	opacity: 0;
+	transition: opacity 1s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+#omhoog{
+	margin-bottom: 180px;
+}
+#logo1{
+	width: 10%;
+	position:absolute;
+	top: 0;
+	left:0;
+	padding:5px;
+
+}
+#video{
+	margin-left: 50px;
+}
